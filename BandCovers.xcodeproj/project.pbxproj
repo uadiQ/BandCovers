@@ -12,6 +12,7 @@
 		1C283D261FC95C9200C76B95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C283D241FC95C9200C76B95 /* Main.storyboard */; };
 		1C283D281FC95C9200C76B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C283D271FC95C9200C76B95 /* Assets.xcassets */; };
 		1C283D2B1FC95C9200C76B95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C283D291FC95C9200C76B95 /* LaunchScreen.storyboard */; };
+		1C283D331FCB5F5500C76B95 /* Band.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C283D321FCB5F5500C76B95 /* Band.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1C283D271FC95C9200C76B95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C283D2A1FC95C9200C76B95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C283D2C1FC95C9200C76B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C283D321FCB5F5500C76B95 /* Band.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Band.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				1C283D201FC95C9200C76B95 /* AppDelegate.swift */,
 				1C283D221FC95C9200C76B95 /* ViewController.swift */,
+				1C283D321FCB5F5500C76B95 /* Band.swift */,
 				1C283D241FC95C9200C76B95 /* Main.storyboard */,
 				1C283D271FC95C9200C76B95 /* Assets.xcassets */,
 				1C283D291FC95C9200C76B95 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C283D331FCB5F5500C76B95 /* Band.swift in Sources */,
 				1C283D231FC95C9200C76B95 /* ViewController.swift in Sources */,
 				1C283D211FC95C9200C76B95 /* AppDelegate.swift in Sources */,
 			);
