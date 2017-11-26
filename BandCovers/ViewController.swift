@@ -40,9 +40,9 @@ class ViewController: UIViewController {
         let stringCoverUrl = bandCoversArray[index]
         guard let coverUrl = URL(string: stringCoverUrl) else { return }
         bandImageActivityIndicator.startAnimating()
-        DispatchQueue.global().async { [weak self] in
+        DispatchQueue.global().async {
             guard let coverData = try? Data(contentsOf: coverUrl) else {
-                self?.stopAnimatingIndicator(indicator: bandImageActivityIndicator)
+                bandImageActivityIndicator.stopAnimating()
                 return
             }
             
@@ -51,12 +51,6 @@ class ViewController: UIViewController {
                 bandCoverImage.image = coverImage
                 bandImageActivityIndicator.stopAnimating()
             }
-        }
-    }
-    
-    private func stopAnimatingIndicator(indicator: UIActivityIndicatorView) {
-        DispatchQueue.main.async {
-            indicator.stopAnimating()
         }
     }
     
